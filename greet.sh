@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello from the training repo!"
+NAME=${1:-World}
+echo "Hello, $NAME! Welcome to the training repo."
